@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/general.css">
     <title>Document</title>
 </head>
 
@@ -14,50 +15,68 @@
         <h2>Ingeniero en software</h2>
     </header>
     <main>
-        <article></article>
-        <h2>Hobbies</h2>
-        <p>Me gusta jugar jueguitos, estoy aprendiendo a programarlos por gusto :D me gusta ver de vez en cuando alguna
-            novela con mi novia</p>
+        <article id="hobbies">
+            <h2>Hobbies</h2>
+            <p>Me gusta jugar jueguitos, estoy aprendiendo a programarlos por gusto :D me gusta ver de vez en cuando alguna
+                novela con mi novia</p>
         </article>
-        <article>
-            <h2>Videojuegos favoritos</h2>
-            <ul>
-                <p>Red dead redemption 2</p>
-                <p>Sekiro</p>
-                <p>Dark souls</p>
-                <p>The binding of isaac</p>
-                <p>Portal</p>
-                <p>Outer wilds</p>
-                <p>Terraria</p>
-                <p>Persona 3</p>
-            </ul>
-        </article>
-        <article>
-            <h2>Series y peliculas favoritas</h2>
-            <ul>
-                <p>Cars</p>
-                <p>Inadvertidamente enamorados</p>
-                <p>Betty la fea</p>
-                <p>Breaking bad</p>
-                <p>Haikyu!!</p>
-            </ul>
-        </article>
-        <article>
-            <h2>Mascotas</h2>
-            <ul>
-                <p>La Berry</p>
-                <p>La Mila</p>
-                <p>La Totis</p>
-                <p>La Mini totis</p>
-            </ul>
-        </article>
-        <article>
-            <h2>Contacto</h2>
-            <ul>
-                <p>berry21345@outlook.com</p>
-            </ul>
-        </article>
+    
+        <div class="grid-container">
+            <div class="grid-left">
+                <article>
+                    <h2>Videojuegos favoritos</h2>
+                    <ul>
+                        <p>Red dead redemption 2</p>
+                        <p>Sekiro</p>
+                        <p>Dark souls</p>
+                        <p>The binding of isaac</p>
+                        <p>Portal</p>
+                        <p>Outer wilds</p>
+                        <p>Terraria</p>
+                        <p>Persona 3</p>
+                    </ul>
+                </article>
+                <article>
+                    <h2>Series y películas favoritas</h2>
+                    <ul>
+                        <p>Cars</p>
+                        <p>Inadvertidamente enamorados</p>
+                        <p>Betty la fea</p>
+                        <p>Breaking bad</p>
+                        <p>Haikyu!!</p>
+                    </ul>
+                </article>
+            </div>
+            <article id="mascotas">
+                <h2>Mascotas</h2>
+                <ul>
+                    <li>
+                        <div class="imagenes-dobles">
+                            <img src="img/berry.jpg" alt="Berry">
+                            <img src="img/berry1.jpg" alt="Berry">
+                        </div>
+                        <p>La Berry</p>
+                    </li>
+                    <li>
+                        <div class="imagenes-dobles">
+                            <img src="img/mila.jpg" alt="Mila">
+                            <img src="img/mila1.jpg" alt="Mila">
+                        </div>
+                        <p>La Mila</p>
+                    </li>
+                    <li>
+                        <img src="img/totis.jpg" alt="Totis">
+                        <p>La Totis</p><p>Esta invernando</p>
+                    </li>
+                    <li>
+                        <img src="img/mini-totis.jpg" alt="Mini Totis">
+                        <p>La Mini Totis</p><p>Esta invernando</p>
+                    </li>
+                </ul>
+            </article>
+        </div>
     </main>
+    
 </body>
 
 </html>

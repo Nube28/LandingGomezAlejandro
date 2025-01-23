@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
+
+body {
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #E4F7F6;
+}
+
+header {
+    text-align: center;
+    background-color: #BEE3DB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2A475E;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #40514E;
+}
+
+#hobbies {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.grid-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px;
+}
+
+.grid-left article {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mascotas {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 1.8em;
+    color: #34656D;
+    margin-bottom: 10px;
+}
+
+article p, 
+article ul p {
+    font-size: 1em;
+    color: #555555;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul p {
+    margin: 5px 0;
+}
+
+#mascotas ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+#mascotas li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px;
+
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 20px); 
+}
+
+#mascotas img {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #BEE3DB; 
+}
+
+#mascotas p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333333;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.imagenes-dobles {
+    display: flex;
+    gap: 10px;
+}
+
+.imagenes-dobles img {
+    width: 100px; 
+    height: 100px;
+}
